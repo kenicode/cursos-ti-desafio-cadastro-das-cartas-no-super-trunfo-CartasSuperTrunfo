@@ -1,22 +1,83 @@
-#include <stdio.h>
+Claro! Aqui está um exemplo de `README.md` para o seu projeto em C do jogo **Super Trunfo de Cidades**:
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+---
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+# 🏙️ Super Trunfo - Cidades (em C)
 
-    return 0;
-}
+Este projeto é uma versão simplificada do clássico jogo **Super Trunfo**, desenvolvida na linguagem **C**, onde o jogador cadastra duas cartas representando cidades brasileiras e escolhe um atributo para comparar. A carta com o melhor valor no atributo escolhido vence!
+
+## 📋 Funcionalidades
+
+- Cadastro de **duas cidades** com os seguintes dados:
+  - Estado (UF)
+  - Código da carta (ex: A1, B2)
+  - Nome da cidade
+  - População
+  - Área em km²
+  - PIB em reais
+  - Número de pontos turísticos
+- Cálculo automático de:
+  - Densidade populacional
+  - PIB per capita
+- Exibição das informações cadastradas
+- Menu de comparação por atributo:
+  - População
+  - Área
+  - PIB
+  - Pontos turísticos
+  - Densidade populacional
+  - PIB per capita
+
+## 🛠️ Tecnologias e Conceitos Utilizados
+
+- Linguagem **C**
+- Estrutura condicional `switch-case`
+- Leitura de dados com `scanf`
+- Manipulação de strings e caracteres
+- Cálculos matemáticos
+- Função auxiliar para limpeza de buffer (`limparBuffer`)
+- Organização e boas práticas com comentários explicativos
+
+## ▶️ Como executar
+
+1. Compile o arquivo com um compilador C (ex: `gcc`):
+
+   ```bash
+   gcc super_trunfo_cidades.c -o super_trunfo
+   ```
+
+2. Execute o programa:
+
+   ```bash
+   ./super_trunfo
+   ```
+
+3. Siga as instruções no terminal para cadastrar as cartas e fazer comparações.
+
+## ✅ Exemplo de Uso
+
+```
+==============================================
+
+#### Ola, seja bem-vindo ao Super Trunfo! ####
+-- Vamos cadastrar duas cartas para o jogo --
+______________________________________________
+### Aperte ENTER para continuar... ###
+```
+
+_(O programa continua com perguntas para cadastro das cidades e depois exibe o menu de comparação.)_
+
+## 📚 Sugestões de Melhoria
+
+- Transformar em um jogo com **múltiplas cartas** e **modo de rodada**
+- Utilizar **structs** para representar uma cidade
+- Implementar **sistema de pontuação**
+- Adicionar **salvamento e carregamento** de cartas via arquivos
+
+## 📄 Licença
+
+Este projeto é de uso educacional e livre para modificações.
+
+---
+
+Se quiser, posso te ajudar a colocar isso no GitHub e configurar o repositório com tudo certinho. Deseja isso também?
